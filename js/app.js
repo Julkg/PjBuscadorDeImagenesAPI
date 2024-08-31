@@ -87,7 +87,7 @@ function mostrarImagenes(imagenes) {
         resultado.innerHTML += `
         <div class="w-1/2 md:w-1/3 lg:w-1/4 p-2 mb-2 ">
             <div class="bg-white rounded">
-                <img class="w-full rounded" src="${previewURL}">
+                <img class="w-full rounded" style ="widh:100px; aspect-ratio:1/1; object-fit:contain;" src="${previewURL}">
                 <div class="p-4">
                     <p class="font-bold">${likes}  <span class="font-light">Me Gusta</span></p>
                     <p class="font-bold">${views}  <span class="font-light">Veces Vista</span></p>
