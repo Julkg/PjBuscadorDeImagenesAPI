@@ -85,8 +85,8 @@ function mostrarImagenes(imagenes) {
     imagenes.forEach(imagen => {
         const { previewURL, likes, views, largeImageURL } = imagen;
         resultado.innerHTML += `
-        <div class="w-1/2 md:w-1/3 lg:w-1/4 p-2 mb-2 ">
-            <div class="bg-white rounded">
+        <div class="w-1/2 md:w-1/3 lg:w-1/4 ">
+            <div class="rounded" style="background: #ffffff1c;">
                 <img class="w-full rounded" style ="widh:100px; aspect-ratio:1/1; object-fit:contain;" src="${previewURL}">
                 <div class="p-4">
                     <p class="font-bold">${likes}  <span class="font-light">Me Gusta</span></p>
